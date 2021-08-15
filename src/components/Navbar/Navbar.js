@@ -36,7 +36,11 @@ class Navbar extends Component {
                 )
             })}
             </ul>  
-            <Button>Sign Up</Button>
+            <Button>
+
+            <img className="aoeprofile" src="/ProfileAoe.png" alt="Logo" /> 
+
+            </Button>
         </nav>
     )
     }

@@ -1,17 +1,19 @@
 :root {
-    --primary: #3acbf7;
+    --primary: #1a1a1a;
+    
 }
 
 .btn {
-    padding: 8px 20px;
+    padding: 10px 10px;
     border-radius: 4px;
     outline: none;
     border: none;
     cursor: pointer;
+    
 }
 
 .btn:hover {
-    padding: 8px 20px;
+    padding: 10px 10px;
     transition: all 0.3s ease-out;
     background: #fff;
     color: #6568F4;
@@ -20,6 +22,7 @@
 
 .btn--primary {
     background-color: var(--primary);
+    
 }
 
 .btn--outline {
@@ -43,4 +46,10 @@
     border-radius: 4px;
     font-size: 20px;
     color: #fff;
+}
+
+.aoelogo
+{
+    height: 20vh;
+    width: 20vh;
 }

@@ -14,8 +14,8 @@ export const MenuItems = [
 },
 
 {
-    title: 'Placeholder',
-    url: '/placeholder',
+    title: 'Profile',
+    url: '/profile',
     cName: 'nav-links',
     
 },
@@ -34,3 +34,4 @@ export const MenuItems = [
     
 },
 ]
+

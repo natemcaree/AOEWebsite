@@ -19,6 +19,18 @@
 }
 
 
+
+.aoeprofile{
+    display: flex;
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+    height: 6.5vh;
+    width: 6.5vh;
+    cursor: pointer;
+}
+
+
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(5, auto);
