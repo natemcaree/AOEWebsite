@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { MenuItems } from './MenuItems';
 import './Navbar.css';
+import { Button } from '../Button';
 
 class Navbar extends Component {
     state = {clicked: false}
@@ -15,7 +16,10 @@ class Navbar extends Component {
     return (
     
         <nav className="NavbarItems">
-            <h1 className="navbar-logo">React<i className="fab fa-react"></i> </h1>
+            {/* League Play button needed below */}
+            <div className="navbar-logo">
+                <img className="aoelogo" src="/LeaguePlay.png" alt="Logo" /> 
+            </div>
             <div className="menu-icon" onClick={this.handleClick}>
 
                 {/* Setting hamburger menu icon below based on clicked. */}
@@ -32,6 +36,7 @@ class Navbar extends Component {
                 )
             })}
             </ul>  
+            <Button>Sign Up</Button>
         </nav>
     )
     }
