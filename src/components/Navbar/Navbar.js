@@ -18,7 +18,7 @@ class Navbar extends Component {
         <nav className="NavbarItems">
             {/* League Play button needed below */}
             <div className="navbar-logo">
-                <img className="aoelogo" src="/LeaguePlay.png" alt="Logo" /> 
+                <img className="aoelogo" height="50%" width="50%" src="/LeaguePlay.png" alt="Logo" /> 
             </div>
             <div className="menu-icon" onClick={this.handleClick}>
 
