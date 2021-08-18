@@ -8,31 +8,31 @@
     position: relative;
 }
 
-.aoelogo{
+.navbar-logo{
+    box-sizing:border-box;
     display: flex;
     color: #ff9f0f;
     cursor: pointer;
     margin-left: 20px;
-    
+    margin-bottom: 10px;
+   
 }
 
-.aoelogo:hover {
+.navbar-logo:hover {
     border: none;
-    box-shadow: 0px 15px 35px rgb(87, 179, 255);
+    box-shadow: inset 0px 15px 35px rgb(87, 179, 255);
     background-color:rgb(87, 179, 255);
+    border-radius: 0 0 15px 15px;
 }
 
 
-.aoeprofile{
-    display: flex;
-    margin-top: -10px;
-    color: #ff9f0f;
-    justify-self: start;
-    height: 5vh;
-    width: 5vh;
-    cursor: pointer;
-}
+/* Edit in Button.css */
+.profile-btn{
 
+    position: fixed;
+    
+
+}
 
 .nav-menu {
     display: grid;
@@ -47,7 +47,7 @@
 }
 
 .nav-links {
-    color: #ffd698;
+    color: #ffffff;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -55,9 +55,12 @@
 .nav-links:hover {
     transition: all 0.3s ease-out;
     opacity: 85%;
-    box-shadow: 0px 15px 35px rgba(252, 212, 9);
-    background-color: rgba(252, 212, 9);
-    transition: 250ms;
+    box-shadow: 0px 15px 35px #ffd698;
+    background-color: #ffd698;
+    transition: 125ms;
+    border-radius: 0 0 15px 15px;
+
+    
 }
 
 .fa-bars {
@@ -111,9 +114,11 @@
     }
 
     .navbar-logo {
-        position: absolute;
-        top: 0;
-        left: 0;
+        position: fixed;
+        top: -263px;
+        left: -75px;
+        height: calc(30vh);
+        width: calc(30vh);
         transform: translate(25%, 50%);
     }
 
